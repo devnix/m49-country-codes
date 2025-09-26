@@ -1,0 +1,29 @@
+{
+    "name": "devnix/m49-country-codes",
+    "description": "List of actual and old m49 country codes to ISO 3166-1 alpha-2",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Pablo Largo Mohedano",
+            "email": "devnix.code@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Devnix\\M49\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Devnix\\M49\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5",
+        "phpstan/phpstan": "^2.1"
+    }
+}
